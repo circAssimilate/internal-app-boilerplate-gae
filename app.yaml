@@ -1,0 +1,13 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /src
+  static_dir: src/client/public/
+  login: required
+
+- url: /.*
+  script: main.app
+  secure: always
+  login: required

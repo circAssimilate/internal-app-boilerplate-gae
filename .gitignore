@@ -1,0 +1,5 @@
+credentials.yaml
+.idea
+node_modules
+*.pyc
+src/client/public

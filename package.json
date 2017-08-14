@@ -1,0 +1,27 @@
+{
+  "name": "optimizely-internal-app-boilerplate-gae",
+  "version": "1.0.0",
+  "description": "Optimizely boilerplate for React/Python",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack -d --watch",
+    "build": "webpack -p"
+  },
+  "author": "derek@optimizely.com",
+  "license": "ISC",
+  "dependencies": {
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "optimizely-oui": "^26.0.0",
+    "oui-icons": "^3.9.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "webpack": "^3.3.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "webpack": "^3.3.0"
+  }
+}
